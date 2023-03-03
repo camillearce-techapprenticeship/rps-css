@@ -12,6 +12,9 @@
       box-sizing: border-box;
     }
 
+  body{
+    font-family: Lucida Console", "Courier New", monospace;
+  }
 
    .button {
     color: rgb(151, 104, 192); 
@@ -20,6 +23,11 @@
     padding: 3px; 
     border-radius: 3px; 
     text-decoration: none; 
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-top: 0.25em;
   }
 
   .player-card {
@@ -39,27 +47,32 @@
     justify-content: space-between;
   }
 
+  .one-third {
+    width: 32%;
+  }
 
   </style>
 </head>
 
 <body>
-  <div>
-    <a class="button" href="/rock">
-      Play Rock
-    </a>
-  </div>
+  <div class="row">
+        <div class="one-third">
+        <a class="button" href="/rock">
+          Play Rock
+        </a>
+      </div>
 
-  <div>
-    <a class="button" href="/paper">
-      Play Paper
-    </a>
-  </div>
+      <div class="one-third">
+        <a class="button" href="/paper">
+          Play Paper
+        </a>
+      </div>
 
-  <div>
-    <a class="button" href="/scissors">
-      Play Scissors
-    </a>
+      <div class="one-third">
+        <a class="button" href="/scissors">
+          Play Scissors
+        </a>
+      </div>
   </div>
 
   <div class="row">
