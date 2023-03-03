@@ -5,38 +5,82 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  <style>
+
+    *{
+      border: thin red dashed;
+      box-sizing: border-box;
+    }
+
+
+   .button {
+    color: rgb(151, 104, 192); 
+    font: 15px Copperplate;
+    border: 1px rgba(236, 185, 227, 0.738) solid; 
+    padding: 3px; 
+    border-radius: 3px; 
+    text-decoration: none; 
+  }
+
+  .player-card {
+    border: thin green solid;
+    width: 49%;
+    border-radius: 10px;
+  }
+
+  .computer-card {
+    border: thin red solid;
+    width: 49%;
+    border-radius: 10px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  </style>
 </head>
 
 <body>
   <div>
-    <a href="/rock">
+    <a class="button" href="/rock">
       Play Rock
     </a>
   </div>
 
   <div>
-    <a href="/paper">
+    <a class="button" href="/paper">
       Play Paper
     </a>
   </div>
 
   <div>
-    <a href="/scissors">
+    <a class="button" href="/scissors">
       Play Scissors
     </a>
   </div>
 
-  <h2>
-    We played rock!
-  </h2>
+  <div class="row">
+    <div class="player-card">
+      <h2>
+         We played rock!
+      </h2>
+    </div>
 
-  <h2>
-    They played paper!
-  </h2>
+    <div class="computer-card">
+      <h2>
+        They played paper!
+      </h2>
+   </div>
+  </div>
 
-  <h2>
+  <div>
+  <h2 style="color: rgb(245, 72, 75)";>
     We lost!
   </h2>
+  </div>
 
   <a href="/">
     Rules
