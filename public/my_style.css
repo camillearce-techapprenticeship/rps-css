@@ -4,11 +4,21 @@
 }
 
 body {
+margin: 0;
 font-family: 'Abril Fatface', cursive;
 display: flex;
 justify-content: center;
+align-items: center;
+height: 100vh;
+border: 40px rgb(227, 212, 231) solid
 }
 
+.bg{
+background-image: url(https://media.tenor.com/ImM0m6NMSTkAAAAd/sunset.gif);
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+}
 .row {
   display: flex;
   justify-content: space-between;
@@ -25,7 +35,7 @@ justify-content: center;
 
 .button {
 color: rgb(151, 104, 192); 
-font: 15px Copperplate;
+font: 25px Copperplate;
 border: 1px rgba(236, 185, 227, 0.738) solid; 
 padding: 3px; 
 border-radius: 3px; 
@@ -38,25 +48,25 @@ padding-top: 0.25em;
 }
 
 .player-card {
-border: thin green solid;
+border: thin rgb(130, 161, 219) solid;
 font-size: 25px;
 width: 49%;
 border-radius: 10px;
 }
 
 .computer-card {
-border: thin rgb(243, 176, 6) solid;
+border: thin rgb(80, 23, 80) solid;
 font-size: 25px;
 width: 49%;
 border-radius: 10px;
 }
 
 .outcome-card {
-  border: thin red solid;
+  border: thin rgb(214, 199, 199) solid;
   font-size: 25px;
   width: 66%;
   border-radius: 10px;
-  background-color:rgb(151, 104, 192);
+  background-color:rgb(237, 222, 251);
 }
 
 .one-third {
@@ -67,7 +77,12 @@ width: 32%;
 text-align: center;
 }
 
+.rules-texts {
+text-decoration: none;
+margin-top: 50px;
+font: 25px Copperplate;
+}
+
 .container{
   width: 960px;
-  border: 10px green solid;
 }
