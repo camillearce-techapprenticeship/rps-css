@@ -13,12 +13,13 @@ height: 100vh;
 border: 40px rgb(227, 212, 231) solid
 }
 
-.bg{
+.//bg{
 background-image: url(https://media.tenor.com/ImM0m6NMSTkAAAAd/sunset.gif);
 background-repeat: no-repeat;
 background-position: center;
 height: 100vh;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -45,6 +46,7 @@ display: inline-block;
 text-align: center;
 padding-top: 0.25em;
 padding-top: 0.25em;
+background-color: transparent whitesmoke;
 }
 
 .player-card {
@@ -78,6 +80,7 @@ text-align: center;
 }
 
 .rules-texts {
+color:rgb(139, 43, 223);
 text-decoration: none;
 margin-top: 50px;
 font: 25px Copperplate;
